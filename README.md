@@ -35,12 +35,27 @@ This project is an enterprise-grade, modular chatbot application powered by **St
 git clone https://github.com/yourusername/high-performance-multi-llm-chatbot.git
 cd high-performance-multi-llm-chatbot
 
-2.**env and requirements**
+2. **Create Virtual Environment and Install Dependencies**
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+3.create a .env file
+
+```bash
+OPENAI_API_KEY=your_openai_api_key
+GROQ_API_KEY=your_groq_api_key
+OLLAMA_API_KEY=your_ollama_api_key  # optional if needed
+
+4.▶️ Running the App
+
+```bash
+
+streamlit run app.py
+
+
 
 
 
