@@ -34,3 +34,14 @@ This project is an enterprise-grade, modular chatbot application powered by **St
 ```bash
 git clone https://github.com/yourusername/high-performance-multi-llm-chatbot.git
 cd high-performance-multi-llm-chatbot
+
+2.**env and requirements**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+
+
+
