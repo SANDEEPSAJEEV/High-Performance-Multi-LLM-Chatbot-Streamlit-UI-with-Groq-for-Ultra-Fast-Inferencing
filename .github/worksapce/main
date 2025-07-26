@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://sandeepsnair1017:$HF_TOKEN@huggingface.co/spaces/sandeepsnair1017/SPACE_NAME main
+        run: git push https://sandeepsnair1017:$HF_TOKEN@huggingface.co/spaces/sandeepsnair1017/multillm-fast main
